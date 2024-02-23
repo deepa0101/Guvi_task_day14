@@ -1,0 +1,44 @@
+p,h1{
+    text-align: center;
+    color:black;
+}
+.container{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width:fit-content;
+    height:fit-content ;
+    padding: 10px;
+    background-color: burlywood;
+    border-radius: 20px;
+    border:2px solid black;
+}
+input{
+    height: 45px;
+    width: 260px;
+    border-radius: 25px;
+}
+
+body{
+    
+    background-image: url(https://img.freepik.com/premium-vector/digital-code-background-abstract-technology-illustration_114588-1522.jpg?size=626&ext=jpg&ga=GA1.1.123354592.1707368849&semt=ais://img.freepik.com/free-photo/top-view-calculator-with-copyspace_23-2148198116.jpg?size=626&ext=jpg&ga=GA1.1.123354592.1707368849&semt=ais);
+}
+
+.container1{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width:400px;
+    height:300px ;
+    padding: 10px;
+    border: solid black 1px;
+    border-radius: 25px;
+    background-color:burlywood;
+}
+button{
+    width: 80px;
+    height: 50px;
+    border-radius: 15px;
+}

@@ -1,12 +1,12 @@
 function addTableRow(){
-    let loginForm = document.getElementById("loginForm");
+    let loginForm = document.getElementById("form");
     loginForm.addEventListener("submit", (e) => {
         e.preventDefault();
     })
 
-let firstName = document.getElementById('fName').value;
-let lastName = document.getElementById('lName').value;
-let Address = document.getElementById('add').value;
+let firstName = document.getElementById('first-name').value;
+let lastName = document.getElementById('last-name').value;
+let Address = document.getElementById('address').value;
 let Pincode = document.getElementById('pincode').value;
 let gender = document.getElementById('gender').value;
 let fc1 = document.getElementById("item1").value;
